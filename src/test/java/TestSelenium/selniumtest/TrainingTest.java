@@ -37,7 +37,7 @@ public class TrainingTest  {
 			
 			 driver.findElement(By.xpath("//div[@id='content-body']//a[text()='New project']")).click();
 			String AutGenProject="auttestmay"+String.valueOf(Math.random()).substring(2, 9);
-			System.out.println("AUtgen Project is ---------->::"+AutGenProject);
+			System.out.println("AUtgenerated Project is ---------->::"+AutGenProject);
 			 driver.findElement(By.xpath("//div[@id='blank-project-name']//*[@id='project_name']")).sendKeys(AutGenProject);
 		
 			 driver.findElement(By.xpath("(//form[@id='new_project']//input[@id='project_visibility_level_20'])[1]")).click();
