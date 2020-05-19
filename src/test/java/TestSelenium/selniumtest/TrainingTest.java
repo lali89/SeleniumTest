@@ -29,7 +29,7 @@ public class TrainingTest  {
 		// LoginJenkinsApp();
 		 loginGitlab();		
 		 createNewGitProject();		 
-		 deleteGitLabProject();
+		// deleteGitLabProject();
 		 driver.quit();	 
 	}
 	
