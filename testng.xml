@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This testng xml is for Adhoc(local testing)   command->mvn clean test -DsuiteXmlFile=testng.xml  
+mvn clean test -Dbuildid="826" -DsuiteXmlFile=testng.xml-->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+  
+    
+  <test thread-count="5" name="Test">
+
+  <parameter name="browserType" value="chrome"/>
+  
+    <classes>
+    
+<class name="TestSelenium.selniumtest">
+         
+  </class>
+        
+    </classes>    
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  
