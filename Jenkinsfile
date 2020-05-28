@@ -4,7 +4,8 @@ pipeline {
         stage('Build') { 
             steps { 
                echo 'This is a minimal pipeline.' 
-                   sh 'mvn clean compile'
+                sh "cd TestSelniumPipeline"
+                   sh 'mvn test'
             }
         }
          stage('Test') { 
