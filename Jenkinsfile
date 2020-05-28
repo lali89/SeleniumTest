@@ -1,4 +1,3 @@
-
 pipeline{
 
 agent any
@@ -9,8 +8,7 @@ agent any
       Steps{
         withMaven(Maven : 'maven_3_6_3'){
         sh 'mvn clean compile'
-        }
-      
+        }      
       }
     
         stage('Testing Stage'){
@@ -21,12 +19,7 @@ agent any
       
       }
     
-    }
-  
-  
-  
-  
-  
+    } 
   
   }
 
